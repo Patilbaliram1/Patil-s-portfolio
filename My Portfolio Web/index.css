@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #0073e6;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #005bb5;
+}
+
+/* Home Section */
+.home-section {
+  background: url('data-bg.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.home-section h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.home-section p {
+  font-size: 1.5rem;
+}
+
+/* About Me Section */
+.about-section {
+  background: #f4f4f4;
+  padding: 50px 0;
+}
+
+/* Skills Section */
+.skills-section {
+  padding: 50px 0;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+.skill i {
+  font-size: 2rem;
+  color: #0073e6;
+}
+
+/* Projects Section */
+.projects-section {
+  padding: 50px 0;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project h3 {
+  margin: 10px 0;
+}
+
+/* Contact Section */
+.contact-section {
+  background: #f4f4f4;
+  padding: 50px 0;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-info i {
+  margin-right: 10px;
+  color: #0073e6;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
